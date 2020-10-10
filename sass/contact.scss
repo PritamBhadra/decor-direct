@@ -1,0 +1,223 @@
+.con-wrp{
+    margin: 130px 0px 104px;
+
+.con-txt {
+    width:30%;
+    h2{
+        font-family: 'Noto Serif', serif; font-weight:400;
+        color: $color-b;
+        
+        font-size: 1.6rem;
+        margin: 47px 0px 20px;
+    }
+    .store-info{
+        padding: 0px 0px 25px 0px;
+        margin: 0px 0px 30px 0px;
+        border-bottom: 1px solid #f4f4f4;
+        &:nth-child(5){
+            border-bottom: 1px solid transparent;
+            padding: 0px;
+        }
+        p{
+            color: $color-b;
+            font-family: 'Roboto', sans-serif;font-weight:400;
+            font-size: 1.3rem;
+            
+            line-height: 2rem;
+            margin: 0px;
+            span{
+                font-weight: 500;
+                display: block;
+                line-height: 1.3rem;
+            }
+            a{
+                color: $color-b;
+                margin: 0px 0px 30px;
+                display: inline-block;
+
+            }
+        }
+    }
+}
+.con-frm {
+	width: 70%;    
+    padding: 45px 45px 42px 40px;
+    border: 1px solid $color-g; 
+    position: relative;
+    background: #fff;
+    h1{
+        margin: 0px 0px 38px 0px;
+    }
+
+    form{
+        input[type="text"], textarea{
+            border: 1px solid #e4e4e4;
+            background: transparent;
+            width: 100%;
+            margin: 0px 0px 20px;
+            padding: 15px 20px;
+            font-size: 1.2rem;
+            color: $color-b;
+            &:focus{
+                outline: 0px;
+            }
+        }
+        textarea{
+            resize: none;
+            height: 145px;
+        }
+        input[type="submit"]{
+            border: 1px solid transparent;
+            background: #69beb5;
+            width: 190px;
+            margin: 0px;
+            margin-left: auto;
+            padding: 11px 0px;
+            font-size: 1.6rem;
+            color: #000;
+            font-family: 'Noto Serif', serif; font-weight:400;
+            &:focus{
+                outline: 0px;
+            }
+        }
+        &:input[type="text"]:focus, &:textarea:focus{
+            border-color: $color-g;
+            }
+    }     
+    &:before{
+        position: absolute;
+        right: -48px;
+        top: -46px;
+        width: 110px;
+        height: 110px;
+        background-image: url(../images/flower2.svg);
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+        content: '';
+        z-index: -1;
+        -webkit-animation:spin 8s linear infinite;
+        -moz-animation:spin 8s linear infinite;
+        animation:spin 8s linear infinite;
+    }
+    &:after{
+        position: absolute;
+        left: -78px;
+        bottom: -50px;
+        width: 220px;
+        height: 170px;
+        background-image: url(../images/leaves.jpg);
+        background-repeat: no-repeat;
+        background-position: 0px 0px;
+        content: '';
+        z-index: -1;
+        background-size: contain;
+    }
+}
+}
+.map-wrp{
+    margin: 0px 0px 60px 0px;
+    iframe{
+        width: 100%;
+        height: 480px;
+    }
+    .map-each{
+        position: relative;
+        .map-title{
+            position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #69beb5;
+    padding: 19px 30px;
+    font-family: 'Noto Serif', serif; font-weight:700;
+    color: #000;
+    
+    font-size: 2.1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1199px) {
+}
+@media screen and (max-width: 991px) {
+    
+.con-wrp .con-frm::before {
+        right: -36px;
+        top: -41px;
+        width: 83px;
+        height: 83px;
+    }
+    .con-wrp .con-txt {
+        width: 34%;
+    }
+    .con-wrp .con-txt .store-info p {        
+        font-size: 1rem;        
+    }
+    .con-wrp .con-frm {
+        width: 61%;
+        padding: 25px 15px;
+        height: max-content;
+    }
+    .con-wrp .con-frm form input[type="submit"] {
+        padding: 7px 0px;
+        font-size: 1.3rem;
+        margin-right: 10px;
+    }
+    .map-wrp iframe {
+        width: 100%;
+        height: 350px;
+    }
+    .map-wrp .map-each .map-title {        
+        padding: 19px 30px;        
+        font-size: 1.5rem;
+    }
+    .con-wrp .con-txt h2 {
+        font-size: 1.2rem;
+        margin: 30px 0px 20px;
+    }
+    .con-wrp .con-frm form input[type="text"], .con-wrp .con-frm form textarea {        
+        padding: 15px 10px;
+        font-size: 1rem;        
+    }
+
+}
+@media screen and (max-width: 767px) {
+    .con-wrp .con-txt {
+        width: 100%;        
+    }
+    .con-wrp .con-frm {
+        width: 90%;
+        padding: 25px 15px;
+        height: max-content;
+        margin: 30px auto 0px;
+    }
+    .con-wrp .con-txt .store-info p a {        
+        margin: 0px 0px 10px;       
+    }
+    .con-wrp .con-txt h2 {
+        font-size: 1.2rem;
+        margin: 10px 0px 10px;
+    }
+    .con-wrp .con-txt .store-info {
+        padding: 0px 0px 10px 0px;
+        margin: 0px 0px 10px 0px;        
+    }
+}
+@media screen and (max-width: 639px) {
+    .con-wrp .con-frm {
+        width: 96%;
+        padding: 15px 15px;
+        height: max-content;
+        margin: 30px auto 20px;
+    }
+    .con-wrp .con-frm h1 {
+        margin: 0px 0px 20px 0px;
+    }
+    .map-wrp .map-each {        
+        margin: 0px 0px 20px;
+    }
+    .map-wrp .map-each .map-title {
+        padding: 10px 20px;
+        font-size: 1.2rem;
+    }
+}      

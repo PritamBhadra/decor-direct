@@ -1,0 +1,110 @@
+@media screen and (max-width: 1199px){
+    .inn-banner-wrp:before{bottom:-9px;height:9px;}
+    .inn-banner-wrp:after{bottom:-17px;height:9px;}
+    .inn-banner-wrp .bnr-txt h1{font-size:2rem;}
+    .breadcrumb li{font-size:1.2rem;line-height:1.2rem;}
+    header .appoin a span.ringing_phone{margin-right:5px;width:40px!important;}
+    header .appoin h2 .ringing_phone svg{width:30px!important;height:30px!important;margin:0;}
+    header .appoin h2 .ringing_phone:after{left:11px;top:3px;}
+    header .appoin h2 .ringing_phone:before{left:13px;top:-1px;}
+    header .appoin h2{align-items:center;}
+    }
+    @media screen and (max-width: 991px){
+    .inn-banner-wrp:before,.inn-banner-wrp:after{width:400px;}
+    }
+    @media screen and (max-width: 639px){
+    .inn-banner-wrp .bnr-txt h1{font-size:1rem;margin:0px;}
+    .inn-banner-wrp .inner-banner{top:0;transform:translateY(0px);left:0;width:100%;height:100%;justify-content:center;display:flex;align-items:center;}
+    .breadcrumb li{font-size:0.9rem;line-height:1.2rem;}
+    header .appoin a span.ringing_phone{margin:0;}
+    header .appoin h2 .ringing_phone:before{top:-1px;}
+    header .appoin h2 .ringing_phone:after{top:4px;}
+    header .appoin a{margin-left:7px;}
+    .inn-banner-wrp:before{width:200px;right:20px;}
+    .inn-banner-wrp:after{width:200px;right:60px;}
+    .top{width:45px;height:45px;}
+    .top.cd-top--is-visible{display:flex;align-items:center;justify-content:center;background-color:#fff;}
+    }
+    @media screen and (max-width: 1199px){
+        .ftr-top h1{margin-bottom:30px;margin-top:15px;}
+        .ftr-top img{height:56px;}
+        .ftr-top p{margin-top:15px;}
+        .ftr-top form input[type="email"]{width:180px;font-size:1rem;}
+        .ftr-top form input[type="submit"]{width:100px;font-size:1rem;}
+        }
+        @media screen and (max-width: 639px){
+        .wrapper{width:100%;}
+        .ftr-logo,.ftr-pro{margin-bottom:20px;}
+        .ftr-frm{margin-top:20px;}
+        .ftr-top form{margin-top:5px;}
+        html body .ftr-btm p{font-size:0.8rem;}
+        .ftr-top{padding-bottom:30px;}
+        }
+        @media screen and (max-width: 1199px){
+        header .appoin h2 .ringing_phone{line-height:normal;}
+        header .logo{padding:20px 0px;}
+        header .logo img{height:47px;}
+        header .menu{margin:1.3rem 0px 0px;height:35px;}
+        header li{margin:0px 7px;font-size:1rem;line-height:1rem;}
+        header .appoin h2{padding:20px 10px 20px 10px!important;width:220px!important;}
+        header .appoin a{font-size:1rem;}
+        header .appoin a:before{left:-46px;top:10px;width:34px;height:34px;}
+        header .appoin a span{font-size:1.5rem;}
+        header .menu{height:auto;margin:0;}
+        header .menu li{margin:0 5px;}
+        #main-header{position:static;}
+        .fixHeader .logo{padding:20px 0;}
+        .ftr-btm{padding:30px 0;}
+        .ftr-top{margin-bottom:0;}
+        }
+        @media screen and (max-width: 991px){
+        .top{display:none;}
+        header .menu{margin-bottom:15px;}
+        header .menu-wrp{margin:0;-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3;width:100%;}
+        header .head-inn{flex-wrap:wrap;position:relative;}
+        .appoin{margin:0;margin-left:auto;}
+        header .navbar .navbar-toggler{height:100%;height:97px;border-radius:0;box-shadow:none;position:absolute;right:0;top:-97px;}
+        header .appoin{margin:0;margin-left:auto;order:2;margin-right:60px;}
+        header .menu{width:100%;position:static;text-align:right;}
+        .navbar-toggler .navbar-toggler-icon{filter:brightness(0) invert(1)!important;}
+        .ftr-top h1{font-size:0.92rem;margin-bottom:15px;}
+        .ftr-top ul li{line-height:normal;margin-bottom:5px;}
+        .ftr-top p{font-size:0.92rem;}
+        .ftr-top form{margin-top:20px;}
+        .ftr-top ul a{font-size:0.92rem;}
+        .ftr-top form input[type="submit"],.ftr-top form input[type="email"]{width:100%;}
+        .ftr-top form input[type="submit"]{background:#69beb5;border:none!important;color:#000000!important;padding:10px 20px;margin-top:5px;}
+        .ftr-btm{padding:15px 0;}
+        .ftr-btm p{font-size:0.92rem;}
+        .wrapper{max-width:98%;}
+        .navbar-toggler{border-color:#69beb5;background:#2d455f;}
+        .navbar-toggler .navbar-toggler-icon{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");filter:grayscale(100%);-webkit-filter:grayscale(100%);}
+        header .appoin{position:static;right:32px;}
+        }
+        @media screen and (max-width: 639px){
+        header .appoin{font-size:0!important;}
+        header .appoin a{font-size:0!important;display:block;}
+        header .appoin span{font-size:0!important;}
+        header .navbar .navbar-toggler{height:50px;top:-68px;}
+        .navbar-light .navbar-toggler .navbar-toggler-icon{width:28px!important;height:28px!important;}
+        header .appoin{display:flex;width:50px;height:50px;padding:0!important;justify-content:center;align-items:center;}
+        header .appoin a::before{position:static!important;display:block;width:30px!important;height:30px!important;}
+        }
+        @media only screen and (max-width: 1199px){
+            .tour-wrp{margin:50px 0px;}
+            .gal-wrp .button-group button{font-size:1.1rem;padding:4px 26px;}
+            .gal-wrp .gal-title h2{font-size:1.1rem;}
+            .gal-wrp .gal-title svg{width:30px;height:30px;}
+            }
+            @media only screen and (max-width: 991px){
+            .gal-wrp .button-group button{font-size:0.9rem;padding:4px 19px;}
+            }
+            @media only screen and (max-width: 767px){
+            .gal-wrp .button-group button{font-size:0.9rem;padding:4px 15px;margin:0px 1px;}
+            .gal-wrp .button-group{margin:0px 0px 20px;text-align:center;}
+            .element-item{width:50%;}
+            }
+            @media only screen and (max-width: 639px){
+            .gal-wrp .button-group button{font-size:0.9rem;padding:4px 15px;margin:0px 1px 7px;}
+            .element-item{width:100%;}
+            }

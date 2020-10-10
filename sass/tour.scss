@@ -1,0 +1,188 @@
+@import "global.scss";
+
+.tour-wrp {
+    margin: 150px 0px 67px;
+
+    .tour-each {
+        position: relative;
+        margin: 0px 0px 20px;        
+
+        .tour-title {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background: $color-g;
+            padding: 24px 15px 28px 25px;
+
+            h2 {
+                color: $color-b;
+                font-family: 'Noto Serif', serif; font-weight:700;
+                font-size: 2rem;
+                
+                margin: 0px;
+            }
+
+            svg {
+                width: 80px;
+                height: 80px;
+                margin: 0px auto;
+                display: none;
+
+                // opacity: 0;
+                // visibility: hidden;
+                display: none;
+                -webkit-transition: all 0.9s;
+                -moz-transition: all 0.9s;
+                -ms-transition: all 0.9s;
+                -o-transition: all 0.9s;
+                transition: all 0.9s;
+            }
+        }
+        
+    }
+}
+.gal-wrp{
+   .button-group {
+        margin: 0px 0px 59px;
+        text-align: center;
+        button {
+             border: none;
+          box-shadow: none;
+          outline: none;
+            display: inline-block;
+            margin: 0px 5px;            
+            font-family: 'Noto Serif', serif; font-weight:400;
+            color: $color-b;
+            font-size: 1.3rem;
+            padding: 11px 34px;
+            background: #f0f0f0;
+            border-radius: 30px;
+            -webkit-transition: all 0.9s;
+            -moz-transition: all 0.9s;
+            -ms-transition: all 0.9s;
+            -o-transition: all 0.9s;
+            transition: all 0.9s;
+            cursor: pointer;
+            &.is-checked{
+               
+
+                background: $color-g;
+            -webkit-transition: all 0.9s;
+            -moz-transition: all 0.9s;
+            -ms-transition: all 0.9s;
+            -o-transition: all 0.9s;
+            transition: all 0.9s;
+            }
+
+            &:hover{
+                background: $color-g;
+                -webkit-transition: all 0.9s;
+            -moz-transition: all 0.9s;
+            -ms-transition: all 0.9s;
+            -o-transition: all 0.9s;
+            transition: all 0.9s;
+            }
+        }
+    }
+    .gal-title {
+        position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(105, 190, 181, 0.9);
+    -webkit-transition: all 0.9s;
+    -moz-transition: all 0.9s;
+    -ms-transition: all 0.9s;
+    -o-transition: all 0.9s;
+    transition: all 0.9s;
+    flex-direction: column;
+        h2{
+            color: $color-b;
+            font-family: 'Noto Serif', serif; font-weight:400;
+                font-size: 2rem;
+                
+                margin: 0px;
+        }
+        svg{
+            width: 50px;
+            height: 50px;
+            margin: 0 auto 20px;
+        }
+    }
+    .gal-each-wrp{
+        -webkit-transition: all 0.9s;
+    -moz-transition: all 0.9s;
+    -ms-transition: all 0.9s;
+    -o-transition: all 0.9s;
+    transition: all 0.9s;
+
+        .gal-each{
+            overflow: hidden;
+            &:hover{
+                .gal-title{
+                    bottom: 0%;
+                    -webkit-transition: all 0.9s;
+                    -moz-transition: all 0.9s;
+                    -ms-transition: all 0.9s;
+                    -o-transition: all 0.9s;
+                    transition: all 0.9s;
+                }
+            }
+        }
+    }
+    
+}
+
+.grid { display: block; margin: 0 auto; justify-content: center; margin: 0 -10px; }
+.grid:after ,.grid:before {  clear: both; display: block; content: ""; }
+.element-item { position: relative; width:33.33%;padding: 0 10px;}
+
+@media only screen and (max-width:1199px) {
+    .tour-wrp {
+        margin: 50px 0px;
+    }
+    .gal-wrp .button-group button {    
+        font-size: 1.1rem;
+        padding: 4px 26px;    
+    }
+    .gal-wrp .gal-title h2 {
+        font-size: 1.1rem;
+    }
+    .gal-wrp .gal-title svg {
+        width: 30px;
+        height: 30px;        
+    }
+}
+@media only screen and (max-width:991px) {
+    .gal-wrp .button-group button {
+        font-size: 0.9rem;
+        padding: 4px 19px;
+    }
+    
+
+}
+@media only screen and (max-width:767px) {
+    .gal-wrp .button-group button {
+        font-size: 0.9rem;
+        padding: 4px 15px;
+        margin: 0px 1px;
+    }
+    .gal-wrp .button-group {
+        margin: 0px 0px 20px;
+        text-align: center;
+    }
+    .element-item { width: 50%;}
+} 
+@media only screen and (max-width:639px) {
+    .gal-wrp .button-group button {
+        font-size: 0.9rem;
+        padding: 4px 15px;
+        margin: 0px 1px 7px;
+    }
+    .element-item { width: 100%;}
+}

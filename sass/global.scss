@@ -1,0 +1,215 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Roboto:wght@400;900&display=swap'); 
+
+// font-family: 'Noto Serif', serif;
+// font-family: 'Roboto', sans-serif;
+  
+// @font-face {
+//     font-family: 'NotoSerif';
+//     src: url('../fonts/NotoSerif.eot?#iefix') format('embedded-opentype'),  url('../fonts/NotoSerif.woff') format('woff'), url('../fonts/NotoSerif.ttf')  format('truetype'), url('../fonts/NotoSerif.svg#NotoSerif') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+//     font-display: swap;
+//   }
+
+//   @font-face {
+//     font-family: 'NotoSerif-Bold';
+//     src: url('../fonts/NotoSerif-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/NotoSerif-Bold.woff') format('woff'), url('../fonts/NotoSerif-Bold.ttf')  format('truetype'), url('../fonts/NotoSerif-Bold.svg#NotoSerif-Bold') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+//     font-display: swap;
+//   }
+//   @font-face {
+//     font-family: 'Roboto-Regular';
+//     src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/Roboto-Regular.woff') format('woff'), url('../fonts/Roboto-Regular.ttf')  format('truetype'), url('../fonts/Roboto-Regular.svg#Roboto-Regular') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+//     font-display: swap;
+//   }
+
+// @font-face {
+//     font-family: 'Roboto-Black';
+//     src: url('../fonts/Roboto-Black.eot?#iefix') format('embedded-opentype'),  url('../fonts/Roboto-Black.woff') format('woff'), url('../fonts/Roboto-Black.ttf')  format('truetype'), url('../fonts/Roboto-Black.svg#Roboto-Black') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+//     font-display: swap;
+//   } 
+  
+
+
+$color-b: #000;
+$color-g:#519d95; /*69beb5*/
+$color-w: #fff;
+
+$regular:400;
+$nato-bold:700;
+$roboto-black:900;
+ 
+
+// inherit
+
+$inherit : inherit;
+
+// none
+
+$none: none;
+
+
+// align
+$text-align-left:left;
+$text-align-right:right;
+$text-align-center:center;
+$text-align-inherit:inherit;
+$center: center;
+
+//border-radius
+
+$border-radius-25: 0.25rem;
+
+// value
+
+$zero: 0;
+$one: 1;
+$two: 2;
+$three: 3;
+$four: 4;
+$five: 5;
+
+// color
+
+$text-color :#010000;
+$text-color-01 :#495057; 
+
+$color-wihite : #fff;   
+
+// border-color
+
+$border-color: #dee2e6;
+$border-color-01: #8bbafe;
+
+ // width
+
+ $width100 : 100%;
+
+
+ // vertical-align
+
+ $vertical-align-top : top;
+ $vertical-align-bottom :bottom;
+ $vertical-align-middle : middle;
+ $vertical-align-inherit : inherit;
+
+ // font-weight
+ $font-weight-500: 500;
+ $font-weight-400: 400;
+ $font-weight-700: 700;
+ $font-weight-bold: bold;
+
+ // font-size
+ $font-size-text1:16px; 
+ $font-size-h1:40px;  
+ $font-size-h2:32px;  
+ $font-size-h3:28px;  
+ $font-size-h4:24px;  
+ $font-size-h5:20px;
+ $font-size-h6:16px;
+
+ $font-size-1rm:1rem;
+
+// box-sizing
+$box-sizing-1: border-box; 
+
+ // line-height
+
+$line-height-global: 1.5;
+$line-height-heading:1.2;
+
+// display
+
+$display-block:block;
+$display-inline:inline;
+$display-inline-block:inline-block;  
+$display-flex:flex;
+$display-table:table; 
+$display-none:none;
+$display-inline-flex:inline-flex;
+
+// duration
+$flex-direction-row :row;
+$flex-direction-column : column;
+$flex-direction-row-reverse : row-reverse;
+$flex-direction-column-reverse : column-reverse;
+
+
+
+// padinng and margin size
+
+$rem-1 : 1rem; 
+$em-1 : 1em;
+$rem-0-5 :0.5rem;
+$rem-l-2 :2rem;
+
+// img 
+
+$img-thumbnail-border : 1px solid #dee2e6; 
+
+
+
+// grid
+
+$grid-1: 8.33%;
+$grid-2: 16.66%;
+$grid-3: 25%;
+$grid-4: 33.33%;
+$grid-5: 41.66%;
+$grid-6: 50%;
+$grid-7: 58.33%;
+$grid-8: 66.66%;
+$grid-9: 75%;
+$grid-10: 83.33%;
+$grid-11: 91.66%;
+$grid-12: 100%;
+
+// container
+
+$container-width: 100%;
+$container-width-1400: 1320px;
+$container-width-1200: 1140px;
+$container-width-992: 960px;
+$container-width-768: 720px;
+$container-width-576: 540px;
+
+
+// media
+
+$layout-breakpoint-small-m: 576px;
+$layout-breakpoint-meduim-m: 768px;
+$layout-breakpoint-large-m: 992px;
+$layout-breakpoint-big-m: 1200px;
+$layout-breakpoint-extra-big-m: 1200px;
+
+// flex
+
+$flex-auto: 0 0 auto;
+$flex-equal-width:1 0 0%;
+
+
+// wrape
+
+$flex-wrap1:wrap;
+$flex-wrap2:wrap-reverse;
+$flex-wrap3:nowrap;
+
+//
+
+$hidden: hidden;
+
+// position
+
+$relative: relative;
+$absolute: absolute;
+
+// valu
+
+$hundred:100% 100%;

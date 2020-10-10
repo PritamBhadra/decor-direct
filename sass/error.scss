@@ -1,0 +1,107 @@
+.err-wrp{
+    padding-top: 225px;
+    padding-bottom: 225px;
+    text-align: center;
+    h1{
+        font-family: 'Noto Serif', serif; font-weight:700;       
+         color: $color-b;        
+        font-size: 10rem;
+        margin: 0px 0px 130px;
+        span{
+            margin: 0px 38px 0px;
+            color: #2e4560;
+            text-transform: uppercase;
+            position: relative;
+            padding: 107px 100px;
+            text-align: center;
+            &:before{
+                position: absolute;
+                right:0px;
+                top: 0px;
+                left: 0;
+                bottom: 0;
+                width: 326px;
+                height: 324px;
+                background-image: url(../images/error-logo.jpg);
+                background-repeat: no-repeat;
+                background-position: 0px 0px;
+                content: '';
+                z-index: -1;
+                margin: auto;
+                -webkit-animation:spin 8s linear infinite;
+                -moz-animation:spin 8s linear infinite;
+                animation:spin 8s linear infinite;
+            }
+        }
+    }
+    h2{
+        font-family: 'NotoSerif_Bold';
+        color: $color-b;
+        
+        font-size: 3rem;
+    }
+    h3{
+        font-family: 'Roboto', sans-serif;font-weight:400;
+color: $color-b;
+        
+        font-size: 1.9rem;
+        margin: 20px 0px 60px;
+        a{
+            color: $color-g;
+        }
+    }
+    h4{
+        a{
+            font-family: 'Noto Serif', serif; font-weight:400;
+            color: $color-b;
+            
+            font-size: 2.3rem;
+            padding: 20px 40px;
+            background: $color-g;
+            display: inline-block;
+        }
+    }
+}
+@media screen and (max-width: 1199px) {
+
+}
+@media screen and (max-width: 991px) {
+    .err-wrp {
+        padding-top: 145px;
+        padding-bottom: 55px;        
+    }
+
+}
+@media screen and (max-width: 767px) {
+}
+@media screen and (max-width: 639px) { 
+    .err-wrp {
+        padding-top: 75px;
+        padding-bottom: 40px;
+    }
+    .err-wrp h1 {        
+        font-size: 3rem;
+        margin: 0px 0px 50px;
+    } 
+    .err-wrp h1 span {
+        margin: 0px 18px 0px;        
+        padding: 30px 50px;
+        text-align: center;
+    }
+    .err-wrp h1 span::before {
+        width: 120px;
+        height: 120px;
+        background-size: contain;
+    }
+    .err-wrp h2 {
+        font-size: 1.5rem;
+    }
+    .err-wrp h3 {        
+        font-size: 1rem;
+        margin: 14px 0px 40px;
+    }
+    .err-wrp h4 a {       
+        font-size: 1.1rem;
+        padding: 15px 40px;        
+    }
+}

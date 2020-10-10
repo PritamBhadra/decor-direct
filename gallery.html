@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Terms and Conditions">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decor Direct</title>
+
+    <link rel="icon" type="images/favicon.svg" href="images/favicon.svg">
+    <!-- <link href="css/include.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="css/gallery-responsive.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"> -->
+    <style>
+        /*! CSS Used from: https://decor-direct-interiors.firebaseapp.com/css/include.css */
+.collapse:not(.show){display:none;}
+.nav-link{display:block;padding:.5rem 1rem;text-decoration:none;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;}
+.navbar{position:relative;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;padding-top:.5rem;padding-bottom:.5rem;}
+.navbar-nav{display:flex;flex-direction:column;padding-left:0;margin-bottom:0;list-style:none;}
+.navbar-nav .nav-link{padding-right:0;padding-left:0;}
+.navbar-collapse{align-items:center;width:100%;}
+.navbar-toggler{padding:.25rem .75rem;font-size:1.25rem;line-height:1;background-color:transparent;border:1px solid transparent;border-radius:.25rem;transition:box-shadow .15s ease-in-out;}
+.navbar-toggler:hover{text-decoration:none;}
+.navbar-toggler:focus{text-decoration:none;outline:0;box-shadow:0 0 0 .2rem;}
+.navbar-toggler-icon{display:inline-block;width:1.5em;height:1.5em;vertical-align:middle;background-repeat:no-repeat;background-position:center;background-size:100%;}
+.navbar-light .navbar-nav .nav-link{color:rgba(0, 0, 0, 0.55);}
+.navbar-light .navbar-nav .nav-link:focus{color:rgba(0, 0, 0, 0.7);}
+.navbar-light .navbar-nav .nav-link:hover{color:rgba(0, 0, 0, 0.7);}
+.navbar-light .navbar-nav .nav-link.active{color:rgba(0, 0, 0, 0.9);}
+.navbar-light .navbar-toggler{color:rgba(0, 0, 0, 0.55);border-color:rgba(0, 0, 0, 0.1);}
+.navbar-light .navbar-toggler-icon{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");}
+@media (prefers-reduced-motion: reduce){
+.nav-link{transition:none;}
+.navbar-toggler{transition:none;}
+}
+@media (min-width: 992px){
+.navbar-expand-lg{flex-wrap:nowrap;justify-content:flex-start;}
+.navbar-expand-lg .navbar-nav{flex-direction:row;}
+.navbar-expand-lg .navbar-nav .nav-link{padding-right:.5rem;padding-left:.5rem;}
+.navbar-expand-lg .navbar-collapse{display:flex!important;}
+.navbar-expand-lg .navbar-toggler{display:none;}
+}
+*{box-sizing:border-box;}
+*::before,*::after{box-sizing:border-box;}
+body{margin:0;font-family:'Roboto', sans-serif;font-weight:400;font-size:16px;line-height:1.5;color:#010000;background-color:#fff;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);overflow-x:hidden;}
+h1,h2{margin-top:0;margin-bottom:0.5rem;font-weight:500;line-height:1.2;}
+h1{font-size:40px;}
+h2{font-size:32px;}
+p{margin-top:0;margin-bottom:1rem;}
+ul{padding-left:2rem;}
+ul,li{margin-top:0;margin-bottom:1rem;padding:0;}
+li{margin-bottom:0;}
+li{list-style:none;}
+input::-moz-focus-inner{border:0;}
+a{color:#0d6efd;text-decoration:none;outline:0;-webkit-transition:all 0.3s;-moz-transition:all 0.3s;-ms-transition:all 0.3s;-o-transition:all 0.3s;transition:all 0.3s;}
+a:hover{color:#024dbc;}
+img,svg{vertical-align:middle;max-width:100%;}
+label{display:inline-block;}
+button{border-radius:0;}
+button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color;}
+input,button{margin:0;font-family:inherit;font-size:inherit;line-height:inherit;}
+button,input{overflow:visible;}
+button{text-transform:none;}
+button,[type="button"],[type="submit"]{-webkit-appearance:button;}
+::-moz-focus-inner{padding:0;border-style:none;}
+.wrapper{width:100%;padding-right:1rem;padding-left:1rem;margin-right:auto;margin-left:auto;}
+@media (min-width: 576px){
+.wrapper{max-width:540px;}
+}
+@media (min-width: 768px){
+.wrapper{max-width:720px;}
+}
+@media (min-width: 992px){
+.wrapper{max-width:960px;}
+}
+@media (min-width: 1200px){
+.wrapper{max-width:1140px;}
+}
+@media (min-width: 1200px){
+.wrapper{max-width:1320px;}
+}
+.custom-row{--bs-gutter-x:1.5rem;--bs-gutter-y:0;display:flex;flex:1 0 100%;flex-wrap:wrap;margin-top:calc(var(--bs-gutter-y) * -1);margin-right:calc(var(--bs-gutter-x) / -2);margin-left:calc(var(--bs-gutter-x) / -2);}
+.custom-row > *{flex-shrink:0;width:100%;max-width:100%;padding-right:calc(var(--bs-gutter-x) / 2);padding-left:calc(var(--bs-gutter-x) / 2);margin-top:var(--bs-gutter-y);}
+@media (min-width: 576px){
+.custom-col-sm-2{flex:0 0 auto;width:16.66%;}
+.custom-col-sm-4{flex:0 0 auto;width:33.33%;}
+}
+::-moz-selection{background:rgba(105, 190, 181, 0.5);color:#000;}
+::selection{background:rgba(105, 190, 181, 0.5);color:#000;}
+header{position:sticky;top:0;z-index:999;background:#fff;}
+header .header-wrp{position:relative;}
+header .head-inn{display:flex;align-items:center;width:100%;}
+header .logo{padding-top:29px;padding-bottom:20px;width:auto;-webkit-transition:all 0.6s;-moz-transition:all 0.6s;-ms-transition:all 0.6s;-o-transition:all 0.6s;transition:all 0.6s;}
+header .logo img{height:57px;-webkit-transition:all 0.6s;-moz-transition:all 0.6s;-ms-transition:all 0.6s;-o-transition:all 0.6s;transition:all 0.6s;}
+header .menu-wrp{width:auto;}
+header .menu{margin:0px;-webkit-transition:all 0.6s;-moz-transition:all 0.6s;-ms-transition:all 0.6s;-o-transition:all 0.6s;transition:all 0.6s;height:39px;}
+header li{display:inline-block;margin:0px 14px;font-family:'Noto Serif', serif;font-weight:400;font-size:1.3rem;color:#000;text-transform:uppercase;line-height:1.3rem;-webkit-transition:all 0.6s;-moz-transition:all 0.6s;-ms-transition:all 0.6s;-o-transition:all 0.6s;transition:all 0.6s;}
+header li a{color:#000;text-decoration:none;padding-bottom:5px;border-bottom:3px solid transparent;-webkit-transition:all 0.6s;-moz-transition:all 0.6s;-ms-transition:all 0.6s;-o-transition:all 0.6s;transition:all 0.6s;}
+header li a:hover{border-bottom:3px solid #519d95;color:#2e4560;}
+header li .active{border-bottom:3px solid #519d95;color:#2e4560;}
+header span{display:block;font-family:'Noto Serif', serif;font-weight:700;font-size:3.16rem;}
+header h2 a{font-size:2rem;}
+header .appoin{position:absolute;right:30px;z-index:9;background:#519d95;width:auto;-webkit-transition:all 0.6s;-moz-transition:all 0.6s;-ms-transition:all 0.6s;-o-transition:all 0.6s;transition:all 0.6s;}
+header .appoin h2{margin:0px;display:flex;padding:35px 20px 35px 20px;width:320px;flex-wrap:wrap;-moz-transition:all 0.6s;-ms-transition:all 0.6s;-o-transition:all 0.6s;transition:all 0.6s;}
+header .appoin h2 .ringing_phone{line-height:60px;width:80px;position:relative;font-size:inherit;-webkit-transition:all 0.6s;-moz-transition:all 0.6s;-ms-transition:all 0.6s;-o-transition:all 0.6s;transition:all 0.6s;}
+header .appoin h2 .ringing_phone svg{display:inline-block;fill:#000;width:50px;height:50px;position:relative;margin:0 10px;animation:shake 2s infinite cubic-bezier(0.36, 0.07, 0.19, 0.97) both;}
+header .appoin h2 .ringing_phone:after,header .appoin h2 .ringing_phone:before{position:absolute;content:'';opacity:0;border-right:2px solid #000;width:15px;height:15px;left:32px;top:22px;border-radius:9px;transform:rotate(-40deg);animation:fadeInOne 2s infinite both;}
+header .appoin h2 .ringing_phone:before{width:20px;height:20px;left:34px;top:17px;animation:fadeInTwo 2s infinite both;}
+header .appoin a{text-decoration:none;color:#000;font-family:'Noto Serif', serif;font-weight:400;font-size:1.3rem;position:relative;-webkit-transition:all 0.6s;-moz-transition:all 0.6s;-ms-transition:all 0.6s;-o-transition:all 0.6s;transition:all 0.6s;}
+header .appoin a span{font-size:2rem;font-weight:600;-webkit-transition:all 0.6s;-moz-transition:all 0.6s;-ms-transition:all 0.6s;-o-transition:all 0.6s;transition:all 0.6s;}
+header .navbar{padding:0px;}
+.fixHeader{border-bottom:1px solid #eee;}
+.fixHeader .logo{padding-top:10px;padding-bottom:10px;-webkit-transition:all 0.6s;-moz-transition:all 0.6s;-ms-transition:all 0.6s;-o-transition:all 0.6s;transition:all 0.6s;}
+.fixHeader .logo img{height:47px;-webkit-transition:all 0.6s;-moz-transition:all 0.6s;-ms-transition:all 0.6s;-o-transition:all 0.6s;transition:all 0.6s;}
+.fixHeader .menu{-webkit-transition:all 0.6s;-moz-transition:all 0.6s;-ms-transition:all 0.6s;-o-transition:all 0.6s;transition:all 0.6s;height:34px;}
+.fixHeader li{margin:0px 14px;font-size:1rem;line-height:1rem;-webkit-transition:all 0.1s;-moz-transition:all 0.1s;-ms-transition:all 0.1s;-o-transition:all 0.1s;transition:all 0.1s;}
+.fixHeader li a{border-bottom:2px solid transparent;-webkit-transition:all 0.6s;-moz-transition:all 0.6s;-ms-transition:all 0.6s;-o-transition:all 0.6s;transition:all 0.6s;}
+.fixHeader li a:hover{border-bottom:2px solid #519d95;}
+.fixHeader li .active{border-bottom:2px solid #519d95;}
+.fixHeader .appoin h2{padding:35px 10px 20px 10px;width:260px;-moz-transition:all 0.6s;-ms-transition:all 0.6s;-o-transition:all 0.6s;transition:all 0.6s;}
+.fixHeader .appoin h2 .ringing_phone{line-height:50px;width:70px;position:relative;font-size:inherit;-moz-transition:all 0.6s;-ms-transition:all 0.6s;-o-transition:all 0.6s;transition:all 0.6s;}
+.fixHeader .appoin h2 .ringing_phone svg{width:40px;height:40px;}
+.fixHeader .appoin h2 .ringing_phone:after{position:absolute;content:'';opacity:0;border-right:2px solid #000;width:15px;height:15px;left:29px;top:17px;border-radius:9px;transform:rotate(-40deg);animation:fadeInOne 2s infinite both;}
+.fixHeader .appoin h2 .ringing_phone::before{left:32px;top:11px;}
+.fixHeader .appoin a{font-size:1rem;-webkit-transition:all 0.6s;-moz-transition:all 0.6s;-ms-transition:all 0.6s;-o-transition:all 0.6s;transition:all 0.6s;}
+.fixHeader .appoin a span{font-size:1.5rem;-webkit-transition:all 0.6s;-moz-transition:all 0.6s;-ms-transition:all 0.6s;-o-transition:all 0.6s;transition:all 0.6s;}
+.fixHeader .appoin a:before{position:absolute;left:-47px;top:10px;width:35px;height:35px;-webkit-transition:all 0.6s;-moz-transition:all 0.6s;-ms-transition:all 0.6s;-o-transition:all 0.6s;transition:all 0.6s;}
+.navbar-light .navbar-toggler .navbar-toggler-icon{display:inline-block;width:34px;height:29px;background-size:content;}
+.ftr-top{border-bottom:1px solid #eaeaea;padding-bottom:50px;margin-bottom:40px;}
+.ftr-top img{height:90px;}
+.ftr-top p{margin:30px 0px 0px;font-family:'Roboto', sans-serif;font-weight:400;font-size:1.2rem;}
+.ftr-top p a{color:#010000;text-decoration:none;border-bottom:2px solid #519d95;}
+.ftr-top p a:hover{color:#519d95;}
+.ftr-top h1{font-family:'Noto Serif', serif;font-weight:700;font-size:1.2rem;margin:35px 0px 60px;}
+.ftr-top ul{margin:0px;}
+.ftr-top ul li{font-family:'Roboto', sans-serif;font-weight:400;font-size:1.2rem;color:#010000;margin:0px 0px 15px;}
+.ftr-top ul a{color:#010000;text-decoration:none;}
+.ftr-top ul a:hover{color:#519d95;}
+.ftr-top form{margin:40px 0px 0px;}
+.ftr-top form input[type="email"]{border:none;border-bottom:3px solid #d9d9d9;width:240px;background:transparent;font-size:1.2rem;color:#000000;font-weight:400;font-family:"Roboto", sans-serif;letter-spacing:1px;padding:0px 0px 7px 0px;box-shadow:none;}
+.ftr-top form input[type="email"]:focus{outline:none;}
+.ftr-top form input[type="submit"]{border:none;border-bottom:3px solid #519d95;width:120px;text-transform:uppercase;background:transparent;font-size:1.2rem;color:#898989;font-family:'Roboto', sans-serif;font-weight:400;letter-spacing:1px;padding:0px 0px 7px 0px;}
+.ftr-top form input[type="submit"]:focus{outline:none;}
+.ftr-top form input[type="submit"]:hover{color:#519d95;border-bottom:3px solid #2d455f;}
+.ftr-top .ftr-frm li{display:inline-block;margin:10px 0px 0px;}
+.ftr-top .ftr-frm li svg{fill:#a5a5a5;}
+.ftr-top .ftr-frm li:nth-child(1):hover svg{fill:#4267B2;}
+.ftr-top .ftr-frm li:nth-child(2):hover svg{fill:#1DA1F2;}
+.ftr-btm{padding-bottom:50px;}
+.ftr-btm p{font-family:'Noto Serif', serif;font-weight:400;font-size:1.2rem;margin:0rem;}
+.scrollTop-main{position:fixed;width:100%;right:0px;bottom:450px;z-index:999;}
+.scrollTop-main .wrapper{display:flex;justify-content:flex-end;}
+.top{cursor:pointer;z-index:99;display:none;position:absolute;z-index:999;width:60px;height:60px;border:1px solid #519d95;text-align:center;border-radius:50%;}
+.top svg{fill:#a8a8a8;}
+.top:hover svg{fill:#519d95;}
+.top.cd-top--is-visible{display:block;}
+.inn-banner-wrp { position: relative; background: #D5D6D1; /*background:url(../images/inn-baner-bg.jpg) repeat-x;*/}
+.inn-banner-wrp .inner-banner{position:absolute;left:0;top:50%;width:100%;transform:translateY(-50px);}
+.inn-banner-wrp .bnr-txt h1{color:#000;font-family:'Noto Serif', serif;font-weight:700;font-size:2.9rem;text-transform:uppercase;}
+.inn-banner-wrp:before{position:absolute;right:70px;bottom:-18px;background:#69beb5;height:18px;z-index:9;content:"";width:600px;}
+.inn-banner-wrp:after{position:absolute;right:150px;bottom:-36px;background:#69beb5;width:600px;height:18px;z-index:9;content:"";}
+.inn-banner-wrp img{height:300px;object-fit: contain;object-position: right;}
+.breadcrumb{padding:0px;list-style:none;margin:0px;}
+.breadcrumb li{display:inline;font-size:1.3rem;line-height:1.3rem;text-transform:capitalize;}
+.breadcrumb li a{color:#000000;text-decoration:none;position:relative;padding:0px 15px 0px 0px;}
+.breadcrumb li a:before{position:absolute;right:0;top:3px;color:black;content:"/";width:auto;height:auto;z-index:9;}
+.breadcrumb li a:hover{color:#519d95;}
+.ftr-top{border-bottom:1px solid #eaeaea;padding-bottom:50px;margin-bottom:40px;}
+.ftr-top img{height:90px;}
+.ftr-top p{margin:30px 0px 0px;font-family:'Roboto', sans-serif;font-weight:400;font-size:1.2rem;}
+.ftr-top p a{color:#010000;text-decoration:none;border-bottom:2px solid #519d95;}
+.ftr-top p a:hover{color:#519d95;}
+.ftr-top h1{font-family:'Noto Serif', serif;font-weight:700;font-size:1.2rem;margin:35px 0px 60px;}
+.ftr-top ul{margin:0px;}
+.ftr-top ul li{font-family:'Roboto', sans-serif;font-weight:400;font-size:1.2rem;color:#010000;margin:0px 0px 15px;}
+.ftr-top ul a{color:#010000;text-decoration:none;}
+.ftr-top ul a:hover{color:#519d95;}
+.ftr-top form{margin:40px 0px 0px;}
+.ftr-top form input[type="email"]{border:none;border-bottom:3px solid #d9d9d9;width:240px;background:transparent;font-size:1.2rem;color:#000000;font-family:'Roboto', sans-serif;font-weight:400;letter-spacing:1px;padding:0px 0px 7px 0px;box-shadow:none;}
+.ftr-top form input[type="email"]:focus{outline:none;}
+.ftr-top form input[type="submit"]{border:none;border-bottom:3px solid #519d95;width:120px;text-transform:uppercase;background:transparent;font-size:1.2rem;color:#737373;font-family:'Roboto', sans-serif;font-weight:400;letter-spacing:1px;padding:0px 0px 7px 0px;}
+.ftr-top form input[type="submit"]:focus{outline:none;}
+.ftr-top form input[type="submit"]:hover{color:#519d95;border-bottom:3px solid #2d455f;}
+.ftr-top .ftr-frm li{display:inline-block;margin:10px 0px 0px;}
+.ftr-top .ftr-frm li svg{fill:#a5a5a5;}
+.ftr-top .ftr-frm li:nth-child(1):hover svg{fill:#4267B2;}
+.ftr-top .ftr-frm li:nth-child(2):hover svg{fill:#1DA1F2;}
+.ftr-btm{padding-bottom:50px;}
+.ftr-btm p{font-family:'Noto Serif', serif;font-weight:400;font-size:1.2rem;margin:0rem;}
+.tour-wrp{margin:150px 0px 67px;}
+.tour-wrp .tour-each{position:relative;margin:0px 0px 20px;}
+.gal-wrp .button-group{margin:0px 0px 59px;text-align:center;}
+.gal-wrp .button-group button{border:none;box-shadow:none;outline:none;display:inline-block;margin:0px 5px;font-family:'Noto Serif', serif;font-weight:400;color:#000;font-size:1.3rem;padding:11px 34px;background:#f0f0f0;border-radius:30px;-webkit-transition:all 0.9s;-moz-transition:all 0.9s;-ms-transition:all 0.9s;-o-transition:all 0.9s;transition:all 0.9s;cursor:pointer;}
+.gal-wrp .button-group button.is-checked{background:#519d95;-webkit-transition:all 0.9s;-moz-transition:all 0.9s;-ms-transition:all 0.9s;-o-transition:all 0.9s;transition:all 0.9s;}
+.gal-wrp .button-group button:hover{background:#519d95;-webkit-transition:all 0.9s;-moz-transition:all 0.9s;-ms-transition:all 0.9s;-o-transition:all 0.9s;transition:all 0.9s;}
+.gal-wrp .gal-title{position:absolute;bottom:-100%;left:0;width:100%;height:100%;display:flex;justify-content:center;align-items:center;background:rgba(105, 190, 181, 0.9);-webkit-transition:all 0.9s;-moz-transition:all 0.9s;-ms-transition:all 0.9s;-o-transition:all 0.9s;transition:all 0.9s;flex-direction:column;}
+.gal-wrp .gal-title h2{color:#000;font-family:'Noto Serif', serif;font-weight:400;font-size:2rem;margin:0px;}
+.gal-wrp .gal-title svg{width:50px;height:50px;margin:0 auto 20px;}
+.gal-wrp .gal-each-wrp{-webkit-transition:all 0.9s;-moz-transition:all 0.9s;-ms-transition:all 0.9s;-o-transition:all 0.9s;transition:all 0.9s;}
+.gal-wrp .gal-each-wrp .gal-each{overflow:hidden;}
+.gal-wrp .gal-each-wrp .gal-each:hover .gal-title{bottom:0%;-webkit-transition:all 0.9s;-moz-transition:all 0.9s;-ms-transition:all 0.9s;-o-transition:all 0.9s;transition:all 0.9s;}
+.grid{display:block;margin:0 auto;justify-content:center;margin:0 -10px;}
+.grid:after,.grid:before{clear:both;display:block;content:"";}
+.element-item{position:relative;width:33.33%;padding:0 10px;}
+/*! CSS Used keyframes */
+@keyframes shake{5%,              45%{transform:rotate3d(0, 0, 1, -7deg);}10%,              40%{transform:rotate3d(0, 0, 1, 7deg);}15%,              25%,              35%{transform:rotate3d(0, 0, 1, -7deg);}20%,              30%{transform:rotate3d(0, 0, 1, 7deg);}51%{transform:rotate3d(0, 0, 0, 0deg);}100%{transform:rotate3d(0, 0, 0, 0deg);}}
+@keyframes fadeInOne{45%{opacity:0;}100%{opacity:1;}}
+@keyframes fadeInTwo{55%{opacity:0;}100%{opacity:1;}}
+@media screen and (max-width: 1199px){
+    .inn-banner-wrp:before{bottom:-9px;height:9px;}
+    .inn-banner-wrp:after{bottom:-17px;height:9px;}
+    .inn-banner-wrp .bnr-txt h1{font-size:2rem;}
+    .breadcrumb li{font-size:1.2rem;line-height:1.2rem;}
+    header .appoin a span.ringing_phone{margin-right:5px;width:40px!important;}
+    header .appoin h2 .ringing_phone svg{width:30px!important;height:30px!important;margin:0;}
+    header .appoin h2 .ringing_phone:after{left:11px;top:3px;}
+    header .appoin h2 .ringing_phone:before{left:13px;top:-1px;}
+    header .appoin h2{align-items:center;}
+    }
+    @media screen and (max-width: 991px){
+    .inn-banner-wrp:before,.inn-banner-wrp:after{width:400px;}
+    }
+    @media screen and (max-width: 639px){
+    .inn-banner-wrp .bnr-txt h1{font-size:1rem;margin:0px;}
+    .inn-banner-wrp .inner-banner{top:0;transform:translateY(0px);left:0;width:100%;height:100%;justify-content:center;display:flex;align-items:center;}
+    .breadcrumb li{font-size:0.9rem;line-height:1.2rem;}
+    header .appoin a span.ringing_phone{margin:0;}
+    header .appoin h2 .ringing_phone:before{top:-1px;}
+    header .appoin h2 .ringing_phone:after{top:4px;}
+    header .appoin a{margin-left:7px;}
+    .inn-banner-wrp:before{width:200px;right:20px;}
+    .inn-banner-wrp:after{width:200px;right:60px;}
+    .top{width:45px;height:45px;}
+    .top.cd-top--is-visible{display:flex;align-items:center;justify-content:center;background-color:#fff;}
+    }
+    @media screen and (max-width: 1199px){
+        .ftr-top h1{margin-bottom:30px;margin-top:15px;}
+        .ftr-top img{height:56px;}
+        .ftr-top p{margin-top:15px;}
+        .ftr-top form input[type="email"]{width:180px;font-size:1rem;}
+        .ftr-top form input[type="submit"]{width:100px;font-size:1rem;}
+        }
+        @media screen and (max-width: 639px){
+        .wrapper{width:100%;}
+        .ftr-logo,.ftr-pro{margin-bottom:20px;}
+        .ftr-frm{margin-top:20px;}
+        .ftr-top form{margin-top:5px;}
+        html body .ftr-btm p{font-size:0.8rem;}
+        .ftr-top{padding-bottom:30px;}
+        }
+        @media screen and (max-width: 1199px){
+        header .appoin h2 .ringing_phone{line-height:normal;}
+        header .logo{padding:20px 0px;}
+        header .logo img{height:47px;}
+        header .menu{margin:1.3rem 0px 0px;height:35px;}
+        header li{margin:0px 7px;font-size:1rem;line-height:1rem;}
+        header .appoin h2{padding:20px 10px 20px 10px!important;width:220px!important;}
+        header .appoin a{font-size:1rem;}
+        header .appoin a:before{left:-46px;top:10px;width:34px;height:34px;}
+        header .appoin a span{font-size:1.5rem;}
+        header .menu{height:auto;margin:0;}
+        header .menu li{margin:0 5px;}
+        #main-header{position:static;}
+        .fixHeader .logo{padding:20px 0;}
+        .ftr-btm{padding:30px 0;}
+        .ftr-top{margin-bottom:0;}
+        }
+        @media screen and (max-width: 991px){
+        .top{display:none;}
+        header .menu{margin-bottom:15px;}
+        header .menu-wrp{margin:0;-webkit-box-ordinal-group:4;-ms-flex-order:3;order:3;width:100%;}
+        header .head-inn{flex-wrap:wrap;position:relative;}
+        .appoin{margin:0;margin-left:auto;}
+        header .navbar .navbar-toggler{height:100%;height:97px;border-radius:0;box-shadow:none;position:absolute;right:0;top:-97px;}
+        header .appoin{margin:0;margin-left:auto;order:2;margin-right:60px;}
+        header .menu{width:100%;position:static;text-align:right;}
+        .navbar-toggler .navbar-toggler-icon{filter:brightness(0) invert(1)!important;}
+        .ftr-top h1{font-size:0.92rem;margin-bottom:15px;}
+        .ftr-top ul li{line-height:normal;margin-bottom:5px;}
+        .ftr-top p{font-size:0.92rem;}
+        .ftr-top form{margin-top:20px;}
+        .ftr-top ul a{font-size:0.92rem;}
+        .ftr-top form input[type="submit"],.ftr-top form input[type="email"]{width:100%;}
+        .ftr-top form input[type="submit"]{background:#69beb5;border:none!important;color:#000000!important;padding:10px 20px;margin-top:5px;}
+        .ftr-btm{padding:15px 0;}
+        .ftr-btm p{font-size:0.92rem;}
+        .wrapper{max-width:98%;}
+        .navbar-toggler{border-color:#69beb5;background:#2d455f;}
+        .navbar-toggler .navbar-toggler-icon{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");filter:grayscale(100%);-webkit-filter:grayscale(100%);}
+        header .appoin{position:static;right:32px;}
+        }
+        @media screen and (max-width: 639px){
+        header .appoin{font-size:0!important;}
+        header .appoin a{font-size:0!important;display:block;}
+        header .appoin span{font-size:0!important;}
+        header .navbar .navbar-toggler{height:50px;top:-68px;}
+        .navbar-light .navbar-toggler .navbar-toggler-icon{width:28px!important;height:28px!important;}
+        header .appoin{display:flex;width:50px;height:50px;padding:0!important;justify-content:center;align-items:center;}
+        header .appoin a::before{position:static!important;display:block;width:30px!important;height:30px!important;}
+        }
+        @media only screen and (max-width: 1199px){
+            .tour-wrp{margin:50px 0px;}
+            .gal-wrp .button-group button{font-size:1.1rem;padding:4px 26px;}
+            .gal-wrp .gal-title h2{font-size:1.1rem;}
+            .gal-wrp .gal-title svg{width:30px;height:30px;}
+            }
+            @media only screen and (max-width: 991px){
+            .gal-wrp .button-group button{font-size:0.9rem;padding:4px 19px;}
+            }
+            @media only screen and (max-width: 767px){
+            .gal-wrp .button-group button{font-size:0.9rem;padding:4px 15px;margin:0px 1px;}
+            .gal-wrp .button-group{margin:0px 0px 20px;text-align:center;}
+            .element-item{width:50%;}
+            }
+            @media only screen and (max-width: 639px){
+            .gal-wrp .button-group button{font-size:0.9rem;padding:4px 15px;margin:0px 1px 7px;}
+            .element-item{width:100%;}
+            }
+    </style> 
+   
+</head>
+
+<body>
+    <!-- Header start -->
+    <header id="main-header">
+        <div class="wrapper header-wrp">
+            <div class="head-inn">
+                <div class="logo">
+                    <a href="index.html" title="logo"><img src="images/logo.svg" alt="LOGO" /></a>
+                </div>
+                <div class="menu-wrp">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav menu">
+                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
+                                <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+                                <li class="nav-item"><a class="nav-link" href="3dtour.html">3D Tours</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT US</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class=" appoin">
+                    <h2>
+                        <a href="tel:8045100031" title="8045100031"><span class="ringing_phone"><svg version="1.1" id="Capa_1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    x="0px" y="0px" viewBox="0 0 405.333 405.333"
+                                    style="enable-background:new 0 0 405.333 405.333;" xml:space="preserve">
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M373.333,266.88c-25.003,0-49.493-3.904-72.725-11.584c-11.328-3.904-24.171-0.896-31.637,6.699l-46.016,34.752    c-52.779-28.16-86.571-61.931-114.389-114.368l33.813-44.928c8.512-8.533,11.563-20.971,7.915-32.64    C142.592,81.472,138.667,56.96,138.667,32c0-17.643-14.357-32-32-32H32C14.357,0,0,14.357,0,32    c0,205.845,167.488,373.333,373.333,373.333c17.643,0,32-14.357,32-32V298.88C405.333,281.237,390.976,266.88,373.333,266.88z     M384,373.333c0,5.888-4.8,10.667-10.667,10.667c-194.091,0-352-157.909-352-352c0-5.888,4.8-10.667,10.667-10.667h74.667    c5.867,0,10.667,4.779,10.667,10.667c0,27.243,4.267,53.995,12.629,79.36c1.237,3.989,0.235,8.107-3.669,12.16l-38.827,51.413    c-2.453,3.264-2.837,7.637-0.981,11.264c31.637,62.144,70.059,100.587,132.651,132.651c3.605,1.877,8.021,1.493,11.285-0.981    l52.523-39.808c2.859-2.816,7.061-3.797,10.859-2.539c25.515,8.427,52.267,12.693,79.531,12.693    c5.867,0,10.667,4.779,10.667,10.667V373.333z" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                </svg></span> </a>
+                        <a href="tel:8045100031">Free Appointment <span>804-510-0031</span></a>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header end -->
+
+    <!-- Banner start -->
+    <section class="inn-banner-wrp">
+        <picture>
+            <source srcset="images/about-us-banner.webp" type="image/webp" width="100%" alt="About As" height="auto">
+
+            <source srcset="images/about-us-banner.jpg" data-srcset="" type="image/jpg" width="100%" alt="About As"
+                height="auto">
+
+            <img src="images/about-us-banner.jpg" alt="About As" width="100%" height="auto" />
+
+        </picture>
+        <div class="inner-banner">
+            <div class="wrapper">
+                <div class="bnr-txt">
+                    <h1>gallery</h1>
+                    <ul class="breadcrumb">
+                        <li><a href="index.html">Home</a></li>
+                        <li>Gallery</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner end -->
+
+    <!--- Gallery Start -->
+    <section class="tour-wrp gal-wrp">
+        <div class="wrapper">
+            <div class="tour-wrp-in">
+                <div class="button-group filters-button-group">
+                    <button class="filter-btn is-checked" data-filter="*">All</a></button>
+                    <button class="filter-btn" data-filter=".CoastalStyle">Coastal Style</button>
+                    <button class="filter-btn" data-filter=".EarthTones">Earth Tones</button>
+                    <button class="filter-btn" data-filter=".SpaStyle">Spa Style</button>
+                    <button class="filter-btn" data-filter=".UrbanStyle">Urban Style</button>
+                    <button class="filter-btn" data-filter=".Traditional">Traditional</button>
+               </div>
+                
+                    
+                <div class=" grid" id="mix-wrapper">
+                    <div class="gal-each-wrp element-item transition Traditional" >
+                        <div class="tour-each gal-each">
+                            <source srcset="images/gal1.webp" type="image/webp" alt="The Bethany" />
+                            <source srcset="images/gal1.jpg" type="image/webp" alt="The Bethany" />
+                            <img src="images/gal1.jpg" alt="The Bethany" />
+
+                            <div class="gal-title">
+                                <a data-fslightbox="first-lightbox" href="images/gal1.jpg"><svg xmlns="http://www.w3.org/2000/svg" height="426.66667pt" viewBox="0 0 426.66667 426.66667" width="426.66667pt"><path d="m405.332031 192h-170.664062v-170.667969c0-11.773437-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.558594-21.332031 21.332031v170.667969h-170.667969c-11.773437 0-21.332031 9.558594-21.332031 21.332031 0 11.777344 9.558594 21.335938 21.332031 21.335938h170.667969v170.664062c0 11.777344 9.558594 21.335938 21.332031 21.335938 11.777344 0 21.335938-9.558594 21.335938-21.335938v-170.664062h170.664062c11.777344 0 21.335938-9.558594 21.335938-21.335938 0-11.773437-9.558594-21.332031-21.335938-21.332031zm0 0"/></svg></a>
+                                <h2>The Bethany</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gal-each-wrp element-item transition Traditional EarthTones" >                      
+                    <div class="tour-each gal-each">
+                            <source srcset="images/gal2.webp" type="image/webp" alt="The Bluebell" />
+                            <source srcset="images/gal2.jpg" type="image/webp" alt="The Bluebell" />
+                            <img src="images/gal2.jpg" alt="The Bluebell" />
+
+                            <div class="gal-title">
+                                <a data-fslightbox="first-lightbox"  href="images/gal2.jpg" ><svg xmlns="http://www.w3.org/2000/svg" height="426.66667pt" viewBox="0 0 426.66667 426.66667" width="426.66667pt"><path d="m405.332031 192h-170.664062v-170.667969c0-11.773437-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.558594-21.332031 21.332031v170.667969h-170.667969c-11.773437 0-21.332031 9.558594-21.332031 21.332031 0 11.777344 9.558594 21.335938 21.332031 21.335938h170.667969v170.664062c0 11.777344 9.558594 21.335938 21.332031 21.335938 11.777344 0 21.335938-9.558594 21.335938-21.335938v-170.664062h170.664062c11.777344 0 21.335938-9.558594 21.335938-21.335938 0-11.773437-9.558594-21.332031-21.335938-21.332031zm0 0"/></svg></a>
+                                <h2>The Bluebell</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gal-each-wrp element-item transition Traditional">                        
+                        <div class="tour-each gal-each">
+                            <source srcset="images/gal3.webp" type="image/webp" alt="The Brady" />
+                            <source srcset="images/gal3.jpg" type="image/webp" alt="The Brady" />
+                            <img src="images/gal3.jpg" alt="The Brady" />
+
+                            <div class="gal-title">
+                                <a data-fslightbox="first-lightbox"  href="images/gal3.jpg" ><svg xmlns="http://www.w3.org/2000/svg" height="426.66667pt" viewBox="0 0 426.66667 426.66667" width="426.66667pt"><path d="m405.332031 192h-170.664062v-170.667969c0-11.773437-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.558594-21.332031 21.332031v170.667969h-170.667969c-11.773437 0-21.332031 9.558594-21.332031 21.332031 0 11.777344 9.558594 21.335938 21.332031 21.335938h170.667969v170.664062c0 11.777344 9.558594 21.335938 21.332031 21.335938 11.777344 0 21.335938-9.558594 21.335938-21.335938v-170.664062h170.664062c11.777344 0 21.335938-9.558594 21.335938-21.335938 0-11.773437-9.558594-21.332031-21.335938-21.332031zm0 0"/></svg></a>
+                                <h2>The Brady</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gal-each-wrp element-item transition CoastalStyle" >
+                         <div class="tour-each gal-each">
+                            <source srcset="images/gal4.webp" type="image/webp" alt="The Bristol" />
+                            <source srcset="images/gal4.jpg" type="image/webp" alt="The Bristol" />
+                            <img src="images/gal4.jpg" alt="The Bristol" />
+
+                            <div class="gal-title">
+                                <a data-fslightbox="first-lightbox"  href="images/gal4.jpg" ><svg xmlns="http://www.w3.org/2000/svg" height="426.66667pt" viewBox="0 0 426.66667 426.66667" width="426.66667pt"><path d="m405.332031 192h-170.664062v-170.667969c0-11.773437-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.558594-21.332031 21.332031v170.667969h-170.667969c-11.773437 0-21.332031 9.558594-21.332031 21.332031 0 11.777344 9.558594 21.335938 21.332031 21.335938h170.667969v170.664062c0 11.777344 9.558594 21.335938 21.332031 21.335938 11.777344 0 21.335938-9.558594 21.335938-21.335938v-170.664062h170.664062c11.777344 0 21.335938-9.558594 21.335938-21.335938 0-11.773437-9.558594-21.332031-21.335938-21.332031zm0 0"/></svg></a>
+                                <h2>The Bristol</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gal-each-wrp element-item transition CoastalStyle" >
+                        <div class="tour-each gal-each">
+                            <source srcset="images/gal5.webp" type="image/webp" alt="The Cassidy" />
+                            <source srcset="images/gal5.jpg" type="image/webp" alt="The Cassidy" />
+                            <img src="images/gal5.jpg" alt="The Cassidy" />
+
+                            <div class="gal-title">
+                                <a data-fslightbox="first-lightbox"  href="images/gal5.jpg" ><svg xmlns="http://www.w3.org/2000/svg" height="426.66667pt" viewBox="0 0 426.66667 426.66667" width="426.66667pt"><path d="m405.332031 192h-170.664062v-170.667969c0-11.773437-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.558594-21.332031 21.332031v170.667969h-170.667969c-11.773437 0-21.332031 9.558594-21.332031 21.332031 0 11.777344 9.558594 21.335938 21.332031 21.335938h170.667969v170.664062c0 11.777344 9.558594 21.335938 21.332031 21.335938 11.777344 0 21.335938-9.558594 21.335938-21.335938v-170.664062h170.664062c11.777344 0 21.335938-9.558594 21.335938-21.335938 0-11.773437-9.558594-21.332031-21.335938-21.332031zm0 0"/></svg></a>
+                                <h2>The Cassidy</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gal-each-wrp element-item transition SpaStyle"  >
+                        <div class="tour-each gal-each">
+                            <source srcset="images/gal6.webp" type="image/webp" alt="The Hatteras" />
+                            <source srcset="images/gal6.jpg" type="image/webp" alt="The Hatteras" />
+                            <img src="images/gal6.jpg" alt="The Hatteras" />
+
+                            <div class="gal-title">
+                                <a data-fslightbox="first-lightbox"  href="images/gal6.jpg" ><svg xmlns="http://www.w3.org/2000/svg" height="426.66667pt" viewBox="0 0 426.66667 426.66667" width="426.66667pt"><path d="m405.332031 192h-170.664062v-170.667969c0-11.773437-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.558594-21.332031 21.332031v170.667969h-170.667969c-11.773437 0-21.332031 9.558594-21.332031 21.332031 0 11.777344 9.558594 21.335938 21.332031 21.335938h170.667969v170.664062c0 11.777344 9.558594 21.335938 21.332031 21.335938 11.777344 0 21.335938-9.558594 21.335938-21.335938v-170.664062h170.664062c11.777344 0 21.335938-9.558594 21.335938-21.335938 0-11.773437-9.558594-21.332031-21.335938-21.332031zm0 0"/></svg></a>
+                                <h2>The Hatteras</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gal-each-wrp element-item transition Traditional" >
+                        <div class="tour-each gal-each">
+                            <source srcset="images/gal7.webp" type="image/webp" alt="The Herring Point" />
+                            <source srcset="images/gal7.jpg" type="image/webp" alt="The Herring Point" />
+                            <img src="images/gal7.jpg" alt="The Herring Point" />
+
+                            <div class="gal-title">
+                                <a data-fslightbox="first-lightbox"  href="images/gal7.jpg" ><svg xmlns="http://www.w3.org/2000/svg" height="426.66667pt" viewBox="0 0 426.66667 426.66667" width="426.66667pt"><path d="m405.332031 192h-170.664062v-170.667969c0-11.773437-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.558594-21.332031 21.332031v170.667969h-170.667969c-11.773437 0-21.332031 9.558594-21.332031 21.332031 0 11.777344 9.558594 21.335938 21.332031 21.335938h170.667969v170.664062c0 11.777344 9.558594 21.335938 21.332031 21.335938 11.777344 0 21.335938-9.558594 21.335938-21.335938v-170.664062h170.664062c11.777344 0 21.335938-9.558594 21.335938-21.335938 0-11.773437-9.558594-21.332031-21.335938-21.332031zm0 0"/></svg></a>
+                                <h2>The Herring Point</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gal-each-wrp element-item transition Traditional" >
+                        <div class="tour-each gal-each">
+                            <source srcset="images/gal8.webp" type="image/webp" alt="The Kingfisher" />
+                            <source srcset="images/gal8.jpg" type="image/webp" alt="The Kingfisher" />
+                            <img src="images/gal8.jpg" alt="The Kingfisher" />
+
+                            <div class="gal-title">
+                                <a data-fslightbox="first-lightbox"  href="images/gal8.jpg" ><svg xmlns="http://www.w3.org/2000/svg" height="426.66667pt" viewBox="0 0 426.66667 426.66667" width="426.66667pt"><path d="m405.332031 192h-170.664062v-170.667969c0-11.773437-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.558594-21.332031 21.332031v170.667969h-170.667969c-11.773437 0-21.332031 9.558594-21.332031 21.332031 0 11.777344 9.558594 21.335938 21.332031 21.335938h170.667969v170.664062c0 11.777344 9.558594 21.335938 21.332031 21.335938 11.777344 0 21.335938-9.558594 21.335938-21.335938v-170.664062h170.664062c11.777344 0 21.335938-9.558594 21.335938-21.335938 0-11.773437-9.558594-21.332031-21.335938-21.332031zm0 0"/></svg></a>
+                                <h2>The Kingfisher</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gal-each-wrp element-item transition CoastalStyle" >
+                        <div class="tour-each gal-each">
+                            <source srcset="images/gal9.webp" type="image/webp" alt="The Mayberry" />
+                            <source srcset="images/gal9.jpg" type="image/webp" alt="The Mayberry" />
+                            <img src="images/gal9.jpg" alt="The Mayberry" />
+
+                            <div class="gal-title">
+                                <a data-fslightbox="first-lightbox"  href="images/gal9.jpg" ><svg xmlns="http://www.w3.org/2000/svg" height="426.66667pt" viewBox="0 0 426.66667 426.66667" width="426.66667pt"><path d="m405.332031 192h-170.664062v-170.667969c0-11.773437-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.558594-21.332031 21.332031v170.667969h-170.667969c-11.773437 0-21.332031 9.558594-21.332031 21.332031 0 11.777344 9.558594 21.335938 21.332031 21.335938h170.667969v170.664062c0 11.777344 9.558594 21.335938 21.332031 21.335938 11.777344 0 21.335938-9.558594 21.335938-21.335938v-170.664062h170.664062c11.777344 0 21.335938-9.558594 21.335938-21.335938 0-11.773437-9.558594-21.332031-21.335938-21.332031zm0 0"/></svg></a>
+                                <h2>The Mayberry</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gal-each-wrp element-item transition CoastalStyle SpaStyle" >
+                        <div class="tour-each gal-each">
+                            <source srcset="images/gal10.webp" type="image/webp" alt="The Montauk" />
+                            <source srcset="images/gal10.jpg" type="image/webp" alt="The Montauk" />
+                            <img src="images/gal10.jpg" alt="The Montauk" />
+
+                            <div class="gal-title">
+                                <a data-fslightbox="first-lightbox"  href="images/gal10.jpg" ><svg xmlns="http://www.w3.org/2000/svg" height="426.66667pt" viewBox="0 0 426.66667 426.66667" width="426.66667pt"><path d="m405.332031 192h-170.664062v-170.667969c0-11.773437-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.558594-21.332031 21.332031v170.667969h-170.667969c-11.773437 0-21.332031 9.558594-21.332031 21.332031 0 11.777344 9.558594 21.335938 21.332031 21.335938h170.667969v170.664062c0 11.777344 9.558594 21.335938 21.332031 21.335938 11.777344 0 21.335938-9.558594 21.335938-21.335938v-170.664062h170.664062c11.777344 0 21.335938-9.558594 21.335938-21.335938 0-11.773437-9.558594-21.332031-21.335938-21.332031zm0 0"/></svg></a>
+                                <h2>The Montauk</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gal-each-wrp element-item transition UrbanStyle">
+                        <div class="tour-each gal-each">
+                            <source srcset="images/gal11.webp" type="image/webp" alt="The Orchid" />
+                            <source srcset="images/gal11.jpg" type="image/webp" alt="The Orchid" />
+                            <img src="images/gal11.jpg" alt="The Orchid" />
+
+                            <div class="gal-title">
+                                <a data-fslightbox="first-lightbox"  href="images/gal11.jpg" ><svg xmlns="http://www.w3.org/2000/svg" height="426.66667pt" viewBox="0 0 426.66667 426.66667" width="426.66667pt"><path d="m405.332031 192h-170.664062v-170.667969c0-11.773437-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.558594-21.332031 21.332031v170.667969h-170.667969c-11.773437 0-21.332031 9.558594-21.332031 21.332031 0 11.777344 9.558594 21.335938 21.332031 21.335938h170.667969v170.664062c0 11.777344 9.558594 21.335938 21.332031 21.335938 11.777344 0 21.335938-9.558594 21.335938-21.335938v-170.664062h170.664062c11.777344 0 21.335938-9.558594 21.335938-21.335938 0-11.773437-9.558594-21.332031-21.335938-21.332031zm0 0"/></svg></a>
+                                <h2>The Orchid</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gal-each-wrp element-item transition UrbanStyle" >
+                        <div class="tour-each gal-each">
+                            <source srcset="images/gal12.webp" type="image/webp" alt="The Pinehurst" />
+                            <source srcset="images/gal12.jpg" type="image/webp" alt="The Pinehurst" />
+                            <img src="images/gal12.jpg" alt="The Pinehurst" />
+
+                            <div class="gal-title">
+                                <a data-fslightbox="first-lightbox"  href="images/gal12.jpg" ><svg xmlns="http://www.w3.org/2000/svg" height="426.66667pt" viewBox="0 0 426.66667 426.66667" width="426.66667pt"><path d="m405.332031 192h-170.664062v-170.667969c0-11.773437-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.558594-21.332031 21.332031v170.667969h-170.667969c-11.773437 0-21.332031 9.558594-21.332031 21.332031 0 11.777344 9.558594 21.335938 21.332031 21.335938h170.667969v170.664062c0 11.777344 9.558594 21.335938 21.332031 21.335938 11.777344 0 21.335938-9.558594 21.335938-21.335938v-170.664062h170.664062c11.777344 0 21.335938-9.558594 21.335938-21.335938 0-11.773437-9.558594-21.332031-21.335938-21.332031zm0 0"/></svg></a>
+                                <h2>The Pinehurst</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery End -->
+
+    <!-- Footer start -->
+    <footer>
+        <div class="wrapper">
+            <div class="ftr-top">
+                <div class="custom-row">
+                    <div class="custom-col-sm-4 ftr-logo">
+                        <a href="index.html" title="Logo"><img src="images/logo.svg" alt="LOGO" /></a>
+                        <p>37342 Martin Street <br />
+                            Rehoboth Beach, Delaware 19971<br />
+                            302-226-4600</p>
+                        <p><a href="mailto:Demo@demo.com">Demo@demo.com</a></p>
+                    </div>
+                    <div class="custom-col-sm-2 ftr-pro">
+                        <h1>Our Products</h1>
+                        <ul>
+                            <li><a href="error.html">Bestsellers</a></li>
+                            <li><a href="error.html">New In</a></li>
+                            <li><a href="error.html">Chairs</a></li>
+                            <li><a href="error.html">404</a></li>
+                        </ul>
+                    </div>
+                    <div class="custom-col-sm-2 ftr-menu">
+                        <h1>Useful Links</h1>
+                        <ul>
+                            <li><a href="about-us.html">About</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="3dtour.html">3d Tours</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="custom-col-sm-4 ftr-frm">
+                        <h1>Newsletter signup </h1>
+                        <p>Stay Updated on all that's new add noteworthy</p>
+                        <form>
+                            <label>
+                            <input type="email" placeholder="Your email...">
+                            <input type="submit" value="SUBSCRIBE">
+                            </label>
+                        </form>
+                        <ul>
+                            <li><a href="https://www.facebook.com/" title="Facebook">
+                                    <svg id="Bold" enable-background="new 0 0 24 24" height="20" viewBox="0 0 24 24"
+                                        width="20" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z" />
+                                    </svg>
+                                </a></li>
+                            <li><a href="https://twitter.com/" title="Twitter">
+                                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" height="20"
+                                        viewBox="0 0 512 512" width="20" style="enable-background:new 0 0 512 512;"
+                                        xml:space="preserve">
+                                        <g>
+                                            <g>
+                                                <path
+                                                    d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016    c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992    c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056    c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152    c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792    c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44    C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568    C480.224,136.96,497.728,118.496,512,97.248z" />
+                                            </g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                        <g>
+                                        </g>
+                                    </svg></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="ftr-btm">
+                <p>Copyright © 2020 decordirectinteriors. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
+    <div class="scrollTop-main">
+        <div class="wrapper">
+            <a class="top  js-cd-top" id="scrollTop" href="#"><svg version="1.1" id="Capa_1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    height="57" viewBox="0 0 240.835 240.835" width="25"
+                    style="enable-background:new 0 0 240.835 240.835;" xml:space="preserve">
+                    <g>
+                        <path id="Expand_Less"
+                            d="M129.007,57.819c-4.68-4.68-12.499-4.68-17.191,0L3.555,165.803c-4.74,4.74-4.74,12.427,0,17.155   c4.74,4.74,12.439,4.74,17.179,0l99.683-99.406l99.671,99.418c4.752,4.74,12.439,4.74,17.191,0c4.74-4.74,4.74-12.427,0-17.155   L129.007,57.819z" />
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                        <g>
+                        </g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                </svg></a>
+        </div>
+    </div>
+
+</body>
+<!-- JavaScript -->
+<script src="js/fslightbox.js"></script>
+
+<script type="text/javascript" src="js/custom.js" defer></script>
+<script type="text/javascript" src="js/scroll.js" defer></script>
+<!-- <script type="text/javascript" src="js/mixitup.min.js" defer></script>  -->
+<script type="text/javascript" src="js/isotope.js" ></script>
+<script type="text/javascript" src="js/common.js" defer></script>
+
+<script type="text/javascript">
+// external js: isotope.pkgd.js
+
+// init Isotope
+var iso = new Isotope( '.grid', {
+  itemSelector: '.element-item',
+  layoutMode: 'fitRows'
+});
+
+// filter functions
+var filterFns = {
+  // show if number is greater than 50
+  numberGreaterThan50: function( itemElem ) {
+    var number = itemElem.querySelector('.number').textContent;
+    return parseInt( number, 10 ) > 50;
+  },
+  // show if name ends with -ium
+  ium: function( itemElem ) {
+    var name = itemElem.querySelector('.name').textContent;
+    return name.match( /ium$/ );
+  }
+};
+
+// bind filter button click
+var filtersElem = document.querySelector('.filters-button-group');
+filtersElem.addEventListener( 'click', function( event ) {
+  // only work with buttons
+  if ( !matchesSelector( event.target, 'button' ) ) {
+    return;
+  }
+  var filterValue = event.target.getAttribute('data-filter');
+  // use matching filter function
+  filterValue = filterFns[ filterValue ] || filterValue;
+  iso.arrange({ filter: filterValue });
+});
+
+// change is-checked class on buttons
+var buttonGroups = document.querySelectorAll('.button-group');
+for ( var i=0, len = buttonGroups.length; i < len; i++ ) {
+  var buttonGroup = buttonGroups[i];
+  radioButtonGroup( buttonGroup );
+}
+
+function radioButtonGroup( buttonGroup ) {
+  buttonGroup.addEventListener( 'click', function( event ) {
+    // only work with buttons
+    if ( !matchesSelector( event.target, 'button' ) ) {
+      return;
+    }
+    buttonGroup.querySelector('.is-checked').classList.remove('is-checked');
+    event.target.classList.add('is-checked');
+  });
+}
+</script>
+<script>
+    const a = document.createElement('a');
+a.setAttribute('data-fslightbox', 'gallery');
+a.setAttribute('href', 'images/2.jpg');
+a.setAttribute('title', 'Gallery');
+document.body.appendChild(a);
+
+//refreshFsLightbox();
+</script>
+</html>
